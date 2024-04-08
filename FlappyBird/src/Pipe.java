@@ -1,26 +1,28 @@
-
 import java.awt.*;
 
+// Kelas Pipe merepresentasikan pipa dalam permainan Flappy Bird
 public class Pipe {
 
-    private int posX;
-    private int posY;
-    private int width;
-    private int height;
-    private Image image;
-    private int velocityX;
-    boolean passed = false;
+    private int posX; // posisi x pipa
+    private int posY; // posisi y pipa
+    private int width; // lebar pipa
+    private int height; // tinggi pipa
+    private Image image; // gambar pipa
+    private int velocityX; // kecepatan horizontal pipa
+    boolean passed = false; // status apakah pipa sudah dilewati oleh pemain
 
+    // Konstruktor untuk membuat objek Pipe
     public Pipe(int posX, int posY, int width, int height, Image image) {
         this.posX = posX;
         this.posY = posY;
         this.width = width;
         this.height = height;
         this.image = image;
-        this.velocityX = -1;
-        this.passed = false;
+        this.velocityX = -1; // kecepatan default pergerakan pipa ke kiri
+        this.passed = false; // pipa belum dilewati saat pertama kali dibuat
     }
 
+    // Metode getter dan setter untuk atribut-atribut Pipa
     public int getPosX() {
         return posX;
     }

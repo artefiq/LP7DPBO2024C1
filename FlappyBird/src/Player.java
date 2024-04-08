@@ -1,24 +1,25 @@
 import java.awt.*;
 
+// Kelas Player merepresentasikan pemain dalam permainan Flappy Bird
 public class Player {
-    private int posX;
-    private int posY;
-    private int width;
-    private int height;
-    private Image image;
-    private int velocityY;
+    private int posX; // posisi x pemain
+    private int posY; // posisi y pemain
+    private int width; // lebar pemain
+    private int height; // tinggi pemain
+    private Image image; // gambar pemain
+    private int velocityY; // kecepatan vertikal pemain
 
-
-    public Player(int posX, int posY, int width, int height, Image image)
-    {
+    // Konstruktor untuk membuat objek Pemain
+    public Player(int posX, int posY, int width, int height, Image image) {
         this.posX = posX;
         this.posY = posY;
         this.width = width;
         this.height = height;
         this.image = image;
-
-        this.velocityY = -0;
+        this.velocityY = -0; // kecepatan awal pemain (diam)
     }
+
+    // Metode getter dan setter untuk atribut-atribut Pemain
     public int getPosX() {
         return posX;
     }
