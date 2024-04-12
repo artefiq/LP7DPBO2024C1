@@ -2,7 +2,7 @@
 
 ## Janji
 
-Saya Ahmad Taufiq Hidayat dengan NIM 2202074 mengerjakan LP5
+Saya Ahmad Taufiq Hidayat dengan NIM 2202074 mengerjakan LP7
 dalam mata kuliah DPBO untuk keberkahanNya maka saya tidak
 melakukan kecurangan seperti yang telah dispesifikasikan. Aamiin.
 
